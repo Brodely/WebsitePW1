@@ -1,0 +1,17 @@
+.contact i{
+    position: fixed;
+    font-size: 20px;
+    top: 85%;
+    left: 93%;
+    z-index: 40;
+    font-size: 30px;
+    font-weight: 500;
+    width: 52px;
+    height: 52px;
+    text-align: center;
+    padding-top: 10px;
+    background-color: #FF9B9B;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}

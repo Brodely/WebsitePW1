@@ -1,0 +1,11 @@
+footer{
+    margin-top: 20px;
+    color: white;
+    background-color: black;
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 12px;
+    display: flex;
+    align-items: flex-end;
+}

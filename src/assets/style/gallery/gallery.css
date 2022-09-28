@@ -1,0 +1,94 @@
+.gallery{
+    padding-left: 14px;
+    padding-right: 0px;
+    padding-top: 40px;
+}
+
+.gallery h3{
+    font-size: 40px;
+}
+
+.barra{
+    width: 120px;
+    height: 8px;
+    margin-top: 5px;
+    background-color: #FF9B9B;
+}
+
+.fotos{
+    margin-top: -20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows:  80px 80px 80px 80px 80px 100px;
+    grid-template-areas:
+    "element1 element2 element2 element3"
+    "element1 element2 element2 element3"
+    "element1 element2 element2 element3"
+    "element4 element2 element2 element3"
+    "element4 element5 element6 element3"
+    "element4 element5 element6 element3";
+    gap: 10px;
+}
+
+.foto{
+    background-color: #FF9B9B;
+}
+
+.foto:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+
+.fotos .foto1{
+    grid-area: element1;
+    background-color: blueviolet;
+    background-image: url(../../img/casas/casa1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fotos .foto2{
+    grid-area: element2;
+    background-color: aqua;
+    background-image: url(../../img/casas/casa2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fotos .foto3{
+    grid-area: element3;
+    background-color: blue;
+    background-image: url(../../img/casas/casa3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fotos .foto4{
+    grid-area: element4;
+    background-color: blue;
+    background-image: url(../../img/casas/casa4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fotos .foto5{
+    grid-area: element5;
+    background-color: darkgrey;
+    background-image: url(../../img/casas/casa5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fotos .foto6{
+    grid-area: element6;
+    background-color: rgb(131, 12, 12);
+    background-image: url(../../img/casas/casa6.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fotos .foto7{
+    grid-area: element7;
+    background-color: darkgrey;
+}
+
+.fotos .foto8{
+    grid-area: element8;
+    background-color: darkgrey;
+}
